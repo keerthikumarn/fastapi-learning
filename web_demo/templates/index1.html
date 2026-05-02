@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastAPI Template Example</title>
+    <link rel="stylesheet" href="/static/styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+{% if message == "Hello" %}
+	<p>Welcome to the FastAPI Application</p>
+{% else %}
+	<p>Message: {{message}} </p>
+{% endif %}
+
+</body>
+<html>
